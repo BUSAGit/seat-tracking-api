@@ -1,5 +1,5 @@
 {
-    "name": "helious/seat-tracking-api",
+    "name": "busa-git/seat-tracking-api",
     "type": "library",
     "keywords": [
         "helious",
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Helious\\SeatTrackingAPI\\": "src/"
+            "busa-git\\SeatTrackingAPI\\": "src/"
         }
     },
     "require": {
@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Helious\\SeatTrackingAPI\\TrackingServiceProivder"
+                "busa-git\\SeatTrackingAPI\\TrackingServiceProivder"
             ]
         }
     }
