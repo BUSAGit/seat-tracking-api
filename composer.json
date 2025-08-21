@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "busa-git\\SeatTrackingAPI\\": "src/"
+            "Helious\\SeatTrackingAPI\\": "src/"
         }
     },
     "require": {
@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "busa-git\\SeatTrackingAPI\\TrackingServiceProivder"
+                "Helious\\SeatTrackingAPI\\TrackingServiceProivder"
             ]
         }
     }
